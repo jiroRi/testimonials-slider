@@ -1,0 +1,15 @@
+.attribution { 
+    position: absolute;
+    bottom: 24px;
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}

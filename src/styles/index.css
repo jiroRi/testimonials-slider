@@ -1,0 +1,21 @@
+.attribution {
+  position: absolute;
+  bottom: 24px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
+/*# sourceMappingURL=index.css.map */
