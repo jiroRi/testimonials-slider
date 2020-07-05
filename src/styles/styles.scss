@@ -1,8 +1,11 @@
 $colors: (
-    dark-blue: #202046, 
-    grayish-blue: #babacf
+    dark: #202046, 
+    light: #babacf
 );
 
 $font-sizes : (
-    header: 32px
+    desktop-testimonial: 32px,
+    mobile-testimonial: 18px,
+    desktop-title: 20px,
+    mobile-title: 15px
 )
