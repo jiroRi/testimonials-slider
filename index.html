@@ -16,43 +16,27 @@
 
   <div class="component">
 
-    <div class="component-slide">
+    <div class="component-slider">
+      <div class="component-slider__background"></div>
+      <div class="component-slider__image"></div>
 
-      <div class="component-slide__background"></div>
-      <div class="component-slide__image"></div>
-      <div class="component-slide__button">
-        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="14"><path fill="none" stroke="#8585AC" stroke-width="3" d="M11 1L3 9l8 8"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="14"><path fill="none" stroke="#8585AC" stroke-width="3" d="M2 1l8 8-8 8"/></svg>
+      <div class="component-slider__button">
+        <div class="prev-button">
+          <svg xmlns="http://www.w3.org/2000/svg"><path class="prev-button__arrow" fill="none" stroke="#8585AC" stroke-width="3" d="M11 1L3 9l8 8"/></svg>
+        </div>
+        <div class="next-button">
+        <svg xmlns="http://www.w3.org/2000/svg"><path class="next-button__arrow" fill="none" stroke="#8585AC" stroke-width="3" d="M2 1l8 8-8 8"/></svg>
+        </div>
       </div>
-
     </div>
 
     <div class="component-testimonial">
-
-      <div id="person1">
-
-        <div class="component-testimonial__statement">
-          <i>"</i> I've been interested in coding for a
-          while but never taken the jump, until
-          now. I couldn't recommend this
-          course enough. I'm now in the job of
-          my dreams and so excited about the
-          future. <i>"</i>
-        </div>
-        <div class="component-testimonial__person">
-          <b>Tanya Sinclair</b>
-          <p>UX Engineer</p>
-        </div>
-
+      <div class="component-testimonial__statement"></div>
+      <div class="component-testimonial__person">
+        <div class="component-testimonial__person-name"></div>
+        <div class="component-testimonial__person-job"></div>
       </div>
-
-      <div id="person2">
-
-        <div class="component-testimonial__statement"></div>
-        <div class="component-testimonial__person"></div>
-
-      </div>
-
+      
       <div class="component-testimonial__quote">
         <svg xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="a" x1="31.368%" x2="100%" y1="72.917%" y2="19.557%"><stop offset="0%" stop-color="#9975D0"/><stop offset="100%" stop-color="#4A3FDB"/></linearGradient></defs><path fill="url(#a)" fill-rule="evenodd" d="M52.615 0L24.858 100H0V0h52.615zM120 0L92.243 100H67.385V0H120z" opacity=".15"/></svg>
       </div>
@@ -68,6 +52,8 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://jiroricaro.netlify.app/">Jiro Ricaro</a>.
   </div>
+
+  <script src="src/js/testimonial-slider.js"></script>
 </body>
 </html>
 
