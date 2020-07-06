@@ -16,19 +16,19 @@ let i = 0;
 
 let person = [
     {
-        image: 'url(../src/assets/images/image-tanya.jpg)',
+        image: 'url(src/assets/images/image-tanya.jpg)',
         testimonial: '<i>"</i> I\'ve been interested in coding for a while but never taken the jump, until now. I couldn\'t recommend this course enough. I\'m now in the job of my dreams and so excited about the future. <i>"</i>',
         name: 'Tanya Sinclair',
         job: 'UX Engineer'
     },
     {
-        image: 'url(../src/assets/images/image-john.jpg)',
+        image: 'url(src/assets/images/image-john.jpg)',
         testimonial: '<i>"</i> If you want to lay the best foundation possible I\'d recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about starting up as a professional developer. <i>"</i>',
         name: 'John Tarkpor',
         job: 'Junior Front-end Developer'
     },
     {
-        image: '(../src/assets/images/crossplay-nohomo.jpg)',
+        image: '(src/assets/images/crossplay-nohomo.jpg)',
         testimonial: '<i>"</i> This platform has hugely helped me in honing my frontend skillset. The challenges are really fun to do! Worth trying and will definitely recommend to my friends.<i>"</i>',
         name: 'Nakiri Erina',
         job: 'Web Developer | UI/UX Designer'
