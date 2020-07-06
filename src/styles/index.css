@@ -6,12 +6,6 @@
   text-align: center;
 }
 
-@media (min-width: 321px) {
-  .attribution {
-    bottom: 8px;
-  }
-}
-
 .attribution a {
   color: #3e52a3;
 }
