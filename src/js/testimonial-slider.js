@@ -10,8 +10,6 @@ let sliderTestimonial = document.querySelector('.component-testimonial__statemen
 let sliderPersonName = document.querySelector('.component-testimonial__person-name');
 let sliderPersonJob = document.querySelector('.component-testimonial__person-job');
 
-console.dir(sliderImage);
-
 let i = 0;
 
 let person = [
