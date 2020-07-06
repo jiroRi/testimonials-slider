@@ -14,7 +14,7 @@ let i = 0;
 
 let person = [
     {
-        image: 'url(\'https://testimonials-slider-pi.vercel.app/src/assets/images/image-tanya.jpg\')',
+        image: 'url(./image-tanya.jpg)',
         testimonial: '<i>"</i> I\'ve been interested in coding for a while but never taken the jump, until now. I couldn\'t recommend this course enough. I\'m now in the job of my dreams and so excited about the future. <i>"</i>',
         name: 'Tanya Sinclair',
         job: 'UX Engineer'
